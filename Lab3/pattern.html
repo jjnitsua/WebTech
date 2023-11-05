@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS</title>
+</head>
+<body>
+<script>
+
+let n=prompt("Please enter the number of rows you want : ",5);
+alert("You enterd "+n);
+let x=confirm("You entered : "+n+" do you confirm with this?");
+if(x==true)
+{
+let s="";
+for (let i = 1; i < n; i++) {
+            for (let j = n - i; j > 1; j--) {
+                s=s+" ";
+            }
+            for (let j = 1; j <= 2*(i-1)+1; j++) {
+                 s=s+"*";
+            }
+            s=s+"\n";
+        }
+console.log(s);
+}
+else{
+  console.log("wrong input");
+}
+
+</script>
+</body>
+</html>
