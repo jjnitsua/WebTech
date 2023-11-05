@@ -1,68 +1,45 @@
-<html>
-    <style type="text/css">
-        tr.odd{background-color:rgb(255, 0, 0);font-style : bold;}
-        tr.even{background-color:rgb(17, 73, 255);font-style : italic;}
-    </style>
-
-<body>
-<table border="3" 
-           align="center">
-        <tr>
-            <td colspan="4"; style = "text-align: center;">Friends</td>
-        </tr>
-  
-        <tr class="odd">
-            <th><h1>S.No.</h1></th>
-            <th><h1>NAME</h1></th>
-            <th><h1>AGE</h1></th>
-            <th><h1>BRANCH</h1></th>
-        </tr>
-        <tr class="even">
-            <td><h2>(1)</h2></td>
-            <td><h2>Austin</h2></td>
-            <td><h2>19</h2></td>
-            <td><h2>IOT</h2></td>
-        </tr>
-        <tr class="even">
-            <td><h2>(2)</h2></td>
-            <td><h2>Aravind</h2></td>
-            <td><h2>20</h2></td>
-            <td><h2>IOT</h2></td>
-        </tr>
-        <tr class="even">
-            <td><h2>(3)</h2></td>
-            <td><h2>Amogh</h2></td>
-            <td><h2>19</h2></td>
-            <td><h2>IOT</h2></td>
-         </tr>
-</table>
-<br>
-<form style="background-color: rgb(202, 173, 173);">
-    <label for="name">Name:</label>
-    <input type="text" id="fname" name="fname" value="John Doe"><br>
-
-    <p style="display : inline">Gender:</p>
-    <input type="radio" id="Male" name="gender" value="Male">
-    <label for="gender">Male</label>
-    <input type="radio" id="Female" name="gender" value="Female">
-    <label for="Female">Female</label><br>
-
-  <p style="display : inline">Qualification:</p>
-  <input type="checkbox" id="10th" name="vehicle1" value="Bike">
-  <label for="10th"> 10th</label>
-  <input type="checkbox" id="12th" name="vehicle2" value="Car">
-  <label for="12th"> 12th</label>
-  <input type="checkbox" id="diploma" name="vehicle3" value="Boat">
-  <label for="diploma">Diploma</label>
-  <input type="checkbox" id="degree" name="vehicle3" value="Boat">
-  <label for="degree"> Degree</label> <br>
-
-  <label for="branch">Which branch are you in ?</label>
-  <select id="branch" name="branch">
-    <option value="iot">IoT</option>
-    <option value="cyber">Cybersecurity</option>
-    <option value="aids">AIDS</option>
-    <option value="bcom">BCom</option>
-  </select>
-</body>
-</html>
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+margin: 30px;
+}
+table {
+width: 30%;
+border-collapse: collapse;
+background-color: aqua;
+}
+th,
+td {
+text-align: center;
+padding: 8px;
+border-bottom: 1px solid #ddd;
+}
+th {
+background-color: antiquewhite;
+text-align: center;
+font-weight: normal;
+}
+h3 {
+border-bottom: 2px solid #333;
+padding-bottom: 5px;
+}
+ul {
+list-style-type: none;
+padding-left: 0;
+}
+li {
+margin-bottom: 10px;
+}
+li strong {
+font-size: 1.1em;
+}
+li ul {
+list-style-type: square;
+margin-top: 5px;
+}
+hr {
+border: 0;
+height: 1px;
+background: #ddd;
+margin: 20px 0;
+}
