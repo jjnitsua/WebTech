@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form with JavaScript Validation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <img src="images.png" style="align-self: center;">
+    <div class="container">
+        <form id="myForm" onsubmit="return validateForm()">
+            <label for="name">Enter Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">SNU Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
