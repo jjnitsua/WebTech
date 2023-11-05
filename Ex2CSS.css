@@ -1,0 +1,45 @@
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+margin: 30px;
+}
+table {
+width: 30%;
+border-collapse: collapse;
+background-color: aqua;
+}
+th,
+td {
+text-align: center;
+padding: 8px;
+border-bottom: 1px solid #ddd;
+}
+th {
+background-color: antiquewhite;
+text-align: center;
+font-weight: normal;
+}
+h3 {
+border-bottom: 2px solid #333;
+padding-bottom: 5px;
+}
+ul {
+list-style-type: none;
+padding-left: 0;
+}
+li {
+margin-bottom: 10px;
+}
+li strong {
+font-size: 1.1em;
+}
+li ul {
+list-style-type: square;
+margin-top: 5px;
+}
+hr {
+border: 0;
+height: 1px;
+background: #ddd;
+margin: 20px 0;
+}
